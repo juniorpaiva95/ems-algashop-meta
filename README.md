@@ -1,4 +1,4 @@
-# algashop-meta
+# ems-algashop-meta
 
 Repositório *meta* do AlgaShop: agrega os repositórios do projeto como submódulos Git
 e centraliza o ambiente de desenvolvimento.
@@ -6,7 +6,7 @@ e centraliza o ambiente de desenvolvimento.
 ## Estrutura
 
 ```
-algashop-meta
+ems-algashop-meta
 ├── microservices
 │   └── ordering    → algashop-ordering  (submódulo)
 └── docs            → algashop-docs      (submódulo)
@@ -20,7 +20,7 @@ algashop-meta
 ## Clonando
 
 ```bash
-git clone --recurse-submodules git@github.com:juniorpaiva95/algashop-meta.git
+git clone --recurse-submodules git@github.com:juniorpaiva95/ems-algashop-meta.git
 ```
 
 Se já tiver clonado sem os submódulos:

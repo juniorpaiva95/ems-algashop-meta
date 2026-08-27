@@ -8,15 +8,17 @@ e centraliza o ambiente de desenvolvimento.
 ```
 ems-algashop-meta
 ├── microservices
-│   ├── ordering    → algashop-ordering  (submódulo)
-│   └── billing     → algashop-billing   (submódulo)
-└── docs            → algashop-docs      (submódulo)
+│   ├── ordering        → algashop-ordering        (submódulo)
+│   ├── billing         → algashop-billing         (submódulo)
+│   └── product-catalog → algashop-product-catalog (submódulo)
+└── docs                → algashop-docs            (submódulo)
 ```
 
 | Repositório | Caminho | Descrição |
 |---|---|---|
 | [algashop-ordering](https://github.com/juniorpaiva95/algashop-ordering) | `microservices/ordering` | Microsserviço de pedidos |
 | [algashop-billing](https://github.com/juniorpaiva95/algashop-billing) | `microservices/billing` | Microsserviço de faturamento |
+| [algashop-product-catalog](https://github.com/juniorpaiva95/algashop-product-catalog) | `microservices/product-catalog` | Microsserviço de catálogo de produtos |
 | [algashop-docs](https://github.com/juniorpaiva95/algashop-docs) | `docs` | Documentação e arquitetura |
 
 ## Clonando

@@ -16,3 +16,7 @@
 	branch = main
 [submodule "template"]
 	branch = main
+[submodule "microservices/billing-scheduller"]
+	path = microservices/billing-scheduller
+	url = git@github.com:juniorpaiva95/algashop-billing-scheduller.git
+	branch = main

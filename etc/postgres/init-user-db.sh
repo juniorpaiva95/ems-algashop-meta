@@ -7,5 +7,4 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
 	CREATE DATABASE billing;
 	CREATE DATABASE ordering_test;
 	CREATE DATABASE billing_test;
-	CREATE DATABASE billing_scheduller;
 EOSQL
